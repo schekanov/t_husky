@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+body {
+  background: #2d802f;
+  font-family: 'Arial', sans-serif;
+}
+.ui-form {
+  max-width: 550px;
+  padding: 80px 30px 30px;
+  margin: 50px auto 30px;
+  background: white;
+}
+.ui-form h3 {
+  position: relative;
+  z-index: 5;
+  margin: 0 0 60px;
+  text-align: center;
+  color: #4a90e2;
+  font-size: 30px;
+  font-weight: normal;
+}
+.form-field {
+  position: relative;
+  margin-bottom: 10px;
+}
+.form-message {
+  color: forestgreen;
+}
+.form-error {
+  color: red;
+}
+.ui-form input[type="submit"] {
+  width: 100%;
+  padding: 0;
+  line-height: 42px;
+  background: #4a90e2;
+  border-width: 0;
+  color: white;
+  font-size: 20px;
+}

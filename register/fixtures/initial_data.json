@@ -1,0 +1,235 @@
+[
+  {
+    "model": "register.master",
+    "pk": 1,
+    "fields": {
+      "name": "Иваныч",
+      "is_active": true
+    }
+  },
+  {
+    "model": "register.master",
+    "pk": 2,
+    "fields": {
+      "name": "Семеныч",
+      "is_active": true
+    }
+  },
+  {
+    "model": "register.master",
+    "pk": 3,
+    "fields": {
+      "name": "Петрович",
+      "is_active": true
+    }
+  },
+  {
+    "model": "register.master",
+    "pk": 4,
+    "fields": {
+      "name": "Михалыч",
+      "is_active": true
+    }
+  },
+  {
+    "model": "register.master",
+    "pk": 5,
+    "fields": {
+      "name": "Виссарионыч",
+      "is_active": true
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 1,
+    "fields": {
+      "name": "Ford"
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 2,
+    "fields": {
+      "name": "Ferrari"
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 3,
+    "fields": {
+      "name": "Renault"
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 4,
+    "fields": {
+      "name": "Lada"
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 5,
+    "fields": {
+      "name": "Opel"
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 6,
+    "fields": {
+      "name": "Mazda"
+    }
+  },
+  {
+    "model": "register.carbrand",
+    "pk": 7,
+    "fields": {
+      "name": "Tesla"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 1,
+    "fields": {
+      "brand": 3,
+      "name": "Logan"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 2,
+    "fields": {
+      "brand": 3,
+      "name": "Megan"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 3,
+    "fields": {
+      "brand": 3,
+      "name": "Megan 2"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 4,
+    "fields": {
+      "brand": 3,
+      "name": "Duster"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 5,
+    "fields": {
+      "brand": 4,
+      "name": "Granta"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 6,
+    "fields": {
+      "brand": 4,
+      "name": "Kalina"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 7,
+    "fields": {
+      "brand": 7,
+      "name": "Model S"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 8,
+    "fields": {
+      "brand": 7,
+      "name": "Model X"
+    }
+  },
+  {
+    "model": "register.carmodel",
+    "pk": 9,
+    "fields": {
+      "brand": 7,
+      "name": "Model 3"
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 1,
+    "fields": {
+      "weekday": 0,
+      "is_workday": true,
+      "begin": "10:00:00",
+      "end": "20:00:00"
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 2,
+    "fields": {
+      "weekday": 1,
+      "is_workday": true,
+      "begin": "10:00:00",
+      "end": "20:00:00"
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 3,
+    "fields": {
+      "weekday": 2,
+      "is_workday": true,
+      "begin": "10:00:00",
+      "end": "20:00:00"
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 4,
+    "fields": {
+      "weekday": 3,
+      "is_workday": true,
+      "begin": "10:00:00",
+      "end": "20:00:00"
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 5,
+    "fields": {
+      "weekday": 4,
+      "is_workday": true,
+      "begin": "10:00:00",
+      "end": "20:00:00"
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 6,
+    "fields": {
+      "weekday": 5,
+      "is_workday": false,
+      "begin": null,
+      "end": null
+    }
+  },
+  {
+    "model": "register.schedule",
+    "pk": 7,
+    "fields": {
+      "weekday": 6,
+      "is_workday": false,
+      "begin": null,
+      "end": null
+    }
+  }
+
+
+]
